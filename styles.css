@@ -73,11 +73,7 @@ h1 {
   letter-spacing: 0.1rem;
   color: rgb(145, 191, 248);
 }
-@media (min-width: 500) {
-  h1 {
-    font-size: 1rem;
-  }
-}
+
 h1:hover {
   color: rgba(145, 191, 248, 0.846);
 }
@@ -89,7 +85,14 @@ top-nav p,
   font-weight: 400;
   letter-spacing: 0.3rem;
 }
-
+@media (max-width: 450px) {
+  .container-logo h1 {
+    font-size: 1.3rem;
+  }
+  .container-logo h4{
+    font-size: 0.6rem;
+  }
+}
 /*hamburguer */
 .topnav {
   overflow: hidden;
