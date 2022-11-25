@@ -147,3 +147,33 @@ section {
   font-size: 0.9rem;
   line-height: 1.5rem;
 }
+.award-title{
+  font-weight: bold;
+  
+}
+.logos-present-container{
+  text-align:center;
+}
+.logos-present-container button{
+  border:none;
+  background:none;
+}
+.logos-present-container button img:hover{
+  background-color: rgb(240, 239, 239);
+}
+.logos-present-container button img:active{
+  background-color: var(--celeste-main)
+}
+.logos-present-container button img{
+ border-radius:50%;
+ background-color: #ddd;
+ width: 4rem;
+ height: 4rem;
+ padding: 0.5rem;
+}
+#awards{
+  display: none;
+}
+#aboutme{
+  display: block;
+}
